@@ -36,9 +36,8 @@ http://localhost:8080/
 
 ## Credenciales de prueba
 
-```bash
-Número de cabaña: 1
-Contraseña: 1234
+Número de cabaña: 1  
+Contraseña: 1234  
 
 ## Requisitos previos
 
@@ -48,8 +47,9 @@ Antes de iniciar el servidor, asegurate de contar con lo siguiente instalado en 
 - Navegador web actualizado (Chrome, Firefox, Edge, etc.)  
 - Git (para clonar el repositorio)  
 
-Podés verificar si tenés Go instalado ejecutando en la terminal:  
+Podés verificar si tenés Go instalado ejecutando en la terminal:
 
 ```bash
-go version 
+go version
+
 
