@@ -51,5 +51,5 @@ Antes de iniciar el servidor, asegurate de contar con lo siguiente instalado en 
 Podés verificar si tenés Go instalado ejecutando en la terminal:  
 
 ```bash
-go version
+go version 
 
