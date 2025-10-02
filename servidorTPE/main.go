@@ -38,7 +38,7 @@ func handleLogin(w http.ResponseWriter, r *http.Request) {
 	cabinID := r.FormValue("id")
 	password := r.FormValue("password")
 
-	// ⚠️ Ejemplo simplificado: hardcodeamos un usuario válido
+	// Ejemplo simplificado: hardcodeamos un usuario válido
 	if cabinID == "1" && password == "1234" {
 		// Login correcto → redirigir a reservas
 		http.Redirect(w, r, "/reservar.html", http.StatusSeeOther)
